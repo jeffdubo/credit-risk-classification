@@ -1,13 +1,13 @@
 # Credit Risk Classification
 
 ## Overview of the Analysis
-The purpose of the analysis is to build a model that can identify creditworthiness of borrowers and thus the potential risk in approving a loan. The dataset was based on historical lending activity from a peer-to-peer lending services company. It included basic information including the loan amount, annual income of the borrower, total debt, debt to income ratio, and status of the loan, either healthy or high-risk. The goal of the model is to predict this loan status.
+The purpose of the analysis is to build a model that can identify creditworthiness of borrowers and thus the potential risk in approving a loan. The dataset is based on historical lending activity from a peer-to-peer lending services company. It contains basic information including the loan amount, annual income of the borrower, total debt, debt to income ratio, and status of the loan, either healthy or high-risk. The model was designed to predict the loan status.
 
 Building and analyzing this model required the following steps:
 1. Read the file containing the data into a Pandas dataframe.
-2. Identify and separate the target column and variables for the analysis. The target column (loan status) is stored in an array and the variables (all other loan information) are stored in a dataframe. It is important to note that all variables must be numerical. Any non-numerical data would need to be reviewed and assess encoding it into numerical data.
+2. Identify and separate the target column and variables for the analysis. The target column (loan status) is stored in an array and the variables (all other loan information) are stored in a dataframe. It is important to note that all variables must be numerical. Any non-numerical data would need to be reviewed and assessed for encoding it into numerical data.
 3. Split the data into a training and test sets. Typically, 75% of the data is in the training set, the remaining 25% in the test set.
-4. Initiate the machine learning model and train the model using the training data. The Logistic Regression module from Scikit Learn was used for the machine learning model.
+4. Initiate the machine learning model and train the model using the training data. The Logistic Regression module from Scikit Learn was used as the machine learning model.
 5. Make predictions of the loan status using the test data.
 6. Evaluate the model's performance.
 7. Resample the dataset and complete steps 4 through 6 to determine if this improves the model's performance. The RandomOverSampler module from Imbalanced-Learn was used for resampling.
