@@ -1,7 +1,7 @@
 # Credit Risk Classification
 
 ## Overview of the Analysis
-The purpose of the analysis is to build a model that can identify creditworthiness of borrowers and thus the potential risk of approving a loan. The dataset was based on historical lending activity from a peer-to-peer lending services company. It included basic information including the loan amount, annual income of the borrower, total debt, debt to income ratio, and status of the loan, either healthy or high-risk. The goal of the model is to predict this loan status.
+The purpose of the analysis is to build a model that can identify creditworthiness of borrowers and thus the potential risk in approving a loan. The dataset was based on historical lending activity from a peer-to-peer lending services company. It included basic information including the loan amount, annual income of the borrower, total debt, debt to income ratio, and status of the loan, either healthy or high-risk. The goal of the model is to predict this loan status.
 
 Building and analyzing this model required the following steps:
 1. Read the file containing the data into a Pandas dataframe.
