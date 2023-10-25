@@ -41,5 +41,5 @@ The second model fit with oversampled data predicts healthy loans at the same ac
 ## Repository Contents
 This repository contains the following:
 1. images - Folder with images for this file.
-2. resourses - Folder with the csv file with loan data.
+2. resources - Folder with the csv file with loan data.
 3. credit_risk_classification.ipynb - Jupyter notebook used to complete the analysis.
